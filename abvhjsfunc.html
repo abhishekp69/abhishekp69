@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>functions</title>
+</head>
+<body>
+	<h1 id="innoo"></h1>
+	<h1 id="innoo1"></h1>
+	<h1 id="innoo2"></h1>
+	<h1 id="innoo3"></h1>
+
+	<script type="text/javascript">
+		function greet(name) {
+  return "Hello, " + name + "!";
+}
+
+document.write(greet("Abhishek"));
+document.write("<br>")
+		function add(a1,a2)
+		{
+			return a1+a2;
+		}
+		function sub(a1,a2)
+		{
+			return a1-a2;
+		}
+		function div(a1,a2)
+		{
+			return a1/a2;
+		}
+		function mul(a1,a2)
+		{
+			return a1*a2;
+		}
+		
+		function greetWithDefault(name = "World") {
+  return "Hello, " + name + "!";
+}
+
+document.write(greetWithDefault()); 
+document.write(greetWithDefault("Bob"));
+
+		let x=add(10,990);
+		let y=sub(100,50);
+		let z=div(10,2);
+		let a=mul(100,800);
+
+		document.getElementById('innoo').innerHTML=x;
+		document.getElementById('innoo1').innerHTML=y;
+		document.getElementById('innoo2').innerHTML=z;
+		document.getElementById('innoo3').innerHTML=a;
+	</script>
+
+</body>
+</html>

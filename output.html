@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>basic of js</title>
+</head>
+<body>
+	
+	<script type="text/javascript">	
+	// Number
+let age = 30;
+let temperature = -10.5;
+document.write("<p style='font-size: 16px; color: blue;'>Age: " + age + "</p>");
+document.write("<p style='font-size: 16px; color: red;'>Temperature: " + temperature + "</p>");
+document.write("<br>");
+
+// String
+let name = "John";
+let message = 'Hello, ' + name + '!';
+document.write("<p style='font-size: 16px; color: green;'>Name: " + name + "</p>");
+document.write("<p style='font-size: 16px; color: orange;'>Message: " + message + "</p>");
+document.write("<br>");
+
+// Boolean
+let isMale = true;
+let isFemale = false;
+document.write("<p style='font-size: 16px; color: purple;'>Is male? " + isMale + "</p>");
+document.write("<p style='font-size: 16px; color: pink;'>Is female? " + isFemale + "</p>");
+document.write("<br>");
+
+// Array
+let fruits = ['apple', 'banana', 'orange'];
+document.write("<p style='font-size: 16px; color: navy;'>Fruits: " + fruits.join(', ') + "</p>");
+document.write("<p style='font-size: 16px; color: brown;'>First fruit: " + fruits[0] + "</p>");
+document.write("<br>");
+
+// Object
+let person = { name: "Alice", age: 25 };
+document.write("<p style='font-size: 16px; color: teal;'>Person: " + JSON.stringify(person) + "</p>");
+document.write("<p style='font-size: 16px; color: maroon;'>Person's name: " + person.name + "</p>");
+document.write("<p style='font-size: 16px; color: olive;'>Person's age: " + person.age + "</p>");
+document.write("<br>");
+
+// Null
+let nullValue = null;
+document.write("<p style='font-size: 16px; color: gray;'>Null value: " + nullValue + "</p>");
+document.write("<br>");
+
+// For loop
+document.write("<b style='font-size: 18px;'>For Loop:</b><br>");
+for (let i = 0; i < 5; i++) {
+    document.write("<p style='font-size: 16px; color:yellow;'>Iteration: " + i + "</p>");
+}
+document.write("<br>");
+
+// While loop
+document.write("<b style='font-size: 18px;color:green'>While Loop:</b><br>");
+let j = 0;
+while (j < 5) {
+    document.write("<p style='font-size: 16px; color:red;'>Iteration: " + j + "</p>");
+    j++;
+}
+document.write("<br>");
+
+// Do-while loop
+document.write("<b style='font-size: 18px;'>Do-While Loop:</b><br>");
+let k = 0;
+do {
+    document.write("<p style='font-size: 16px; color: hotpink;'>Iteration: " + k + "</p>");
+    k++;
+} while (k < 5);
+document.write("<br>");
+
+
+</script>
+
+</body>
+</html>
